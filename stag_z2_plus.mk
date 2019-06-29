@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/zuk/z2_plus/device.mk)
 
 # Inherit some common PixysOS stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 # Pixys stuff
 PIXYS_BUILD_TYPE=OFFICIAL
@@ -29,7 +29,7 @@ DEVICE_MAINTAINERS="Aswin A S"
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := pixys_z2_plus
+PRODUCT_NAME := stag_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_BRAND := ZUK
 PRODUCT_MODEL := Z2 Plus
