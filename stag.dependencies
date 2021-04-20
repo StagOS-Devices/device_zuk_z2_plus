@@ -10,5 +10,24 @@
   {
     "repository": "device_zuk_msm8996-common",
     "target_path": "device/zuk/msm8996-common"
+  },
+  {
+    "repository":  "android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/msm8996-r/display",
+    "remote":      "stag",
+    "branch":      "r11-caf-8996"
+  },
+  {
+    "repository":  "android_hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/msm8996-r/audio",
+    "remote":      "stag",
+    "branch":      "r11-caf-8996"
+  },
+
+  {
+    "repository":  "android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/msm8996-r/media",
+    "remote":      "stag",
+    "branch":      "r11-caf-8996"
   }
 ]

@@ -35,5 +35,6 @@ AUDIO_FEATURE_ENABLED_SPKR_PROTECTION := true
 # Kernel
 TARGET_KERNEL_CONFIG := z2_plus_defconfig
 
+OVERRIDE_QCOM_HARDWARE_VARIANT := msm8996-r
 # inherit from the proprietary version
 -include vendor/zuk/z2_plus/BoardConfigVendor.mk
