@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_z2_plus.mk
+    $(LOCAL_DIR)/stag_z2_plus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_z2_plus-userdebug \
-    aosp_z2_plus-eng
+    stag_z2_plus-userdebug \
+    stag_z2_plus-eng
